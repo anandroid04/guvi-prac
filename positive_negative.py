@@ -9,5 +9,5 @@ def check():
            else:
                 print("Negative")
     except ValueError:
-         print("Invalid")
+           print("Invalid")
 check()

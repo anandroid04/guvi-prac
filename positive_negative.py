@@ -4,10 +4,10 @@ def check():
         n=int(input())
            if n>0:
                 print("Positive")
-            elif n==0:
+           elif n==0:
                 print("Zero")
-            else:
+           else:
                 print("Negative")
-       exccept ValueError:
+    except ValueError:
          print("Invalid")
 check()
